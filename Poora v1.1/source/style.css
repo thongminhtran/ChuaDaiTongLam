@@ -1772,7 +1772,10 @@ body,
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-
+.f-item.about img {
+  max-width: 100px; /* Adjust this value as needed */
+  height: auto; /* Maintain aspect ratio */
+}
 .banner-area.video-bg-live .mbYTP_wrapper {
   z-index: 1 !important;
 }
